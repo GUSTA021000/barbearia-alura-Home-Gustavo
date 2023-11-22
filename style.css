@@ -1,4 +1,8 @@
-.cabeçalho{background-color: gray;}
+cabeçalho{background-color: gray;}
+
+nav{position: absolute;
+    top: 110px;
+    right: 0;}
 
 nav  li{display: inline;}
 
@@ -7,3 +11,22 @@ nav a{text-transform: uppercase;
 font-weight:  bold ;
 font-size: 22px;
 text-decoration: none;}
+
+.caixa{position: relative;
+     width: 940px;
+    margin: 0 auto;}
+
+.produtos{width: 940px
+    margin 0 auto;}
+    
+.produtos li{ 
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;}
+
+.descrição{font-size: 18px;}
+
+.preço{font-size: 22px;
+       font-weight: bold;}
+        
